@@ -7,7 +7,8 @@
 ## 1. Блок-схема (Flowchart)
 
 ### 1.1 Простая блок-схема
-```
+
+```mermaid
 flowchart TD
     A[Начало] --> B{Условие}
     B -->|Да| C[Действие 1]
@@ -17,7 +18,8 @@ flowchart TD
 ```
 
 ### 1.2 Блок-схема с разными формами
-```
+
+```mermaid
 flowchart LR
     A([Начало]) --> B[Процесс]
     B --> C{Решение}
@@ -29,7 +31,8 @@ flowchart LR
 ```
 
 ### 1.3 Вертикальная блок-схема
-```
+
+```mermaid
 flowchart TB
     Start([Старт]) --> Input[/Ввод данных/]
     Input --> Process[Обработка]
@@ -41,7 +44,8 @@ flowchart TB
 ```
 
 ### 1.4 Блок-схема с подграфами
-```
+
+```mermaid
 flowchart TD
     subgraph Frontend[Фронтенд]
         A[Пользователь] --> B[UI]
@@ -54,7 +58,8 @@ flowchart TD
 ```
 
 ### 1.5 Горизонтальная блок-схема со стилями
-```
+
+```mermaid
 flowchart LR
     A[Задача] --> B[В работе]
     B --> C[Готово]
@@ -68,7 +73,8 @@ flowchart LR
 ## 2. Диаграмма последовательности (Sequence Diagram)
 
 ### 2.1 Базовая диаграмма
-```
+
+```mermaid
 sequenceDiagram
     participant A as Клиент
     participant B as Сервер
@@ -80,7 +86,8 @@ sequenceDiagram
 ```
 
 ### 2.2 С активацией и заметками
-```
+
+```mermaid
 sequenceDiagram
     autonumber
     Alice->>+John: Привет, как дела?
@@ -91,7 +98,8 @@ sequenceDiagram
 ```
 
 ### 2.3 С альтернативами и циклами
-```
+
+```mermaid
 sequenceDiagram
     participant U as Пользователь
     participant S as Система
@@ -108,7 +116,8 @@ sequenceDiagram
 ```
 
 ### 2.4 С параллельными действиями
-```
+
+```mermaid
 sequenceDiagram
     participant A as Сервис A
     participant B as Сервис B
@@ -127,7 +136,8 @@ sequenceDiagram
 ## 3. Диаграмма классов (Class Diagram)
 
 ### 3.1 Базовая диаграмма классов
-```
+
+```mermaid
 classDiagram
     class Animal {
         +String name
@@ -147,7 +157,8 @@ classDiagram
 ```
 
 ### 3.2 С отношениями
-```
+
+```mermaid
 classDiagram
     class University {
         +String name
@@ -167,7 +178,8 @@ classDiagram
 ```
 
 ### 3.3 С интерфейсами и абстракциями
-```
+
+```mermaid
 classDiagram
     class Shape {
         <<interface>>
@@ -194,7 +206,8 @@ classDiagram
 ## 4. Диаграмма состояний (State Diagram)
 
 ### 4.1 Простая диаграмма состояний
-```
+
+```mermaid
 stateDiagram-v2
     [*] --> Ожидание
     Ожидание --> Обработка : запуск
@@ -205,7 +218,8 @@ stateDiagram-v2
 ```
 
 ### 4.2 С составными состояниями
-```
+
+```mermaid
 stateDiagram-v2
     [*] --> Активен
     state Активен {
@@ -220,7 +234,8 @@ stateDiagram-v2
 ```
 
 ### 4.3 С параллельными состояниями
-```
+
+```mermaid
 stateDiagram-v2
     [*] --> Система
     state Система {
@@ -242,7 +257,8 @@ stateDiagram-v2
 ## 5. ER-диаграмма (Entity Relationship)
 
 ### 5.1 Базовая ER-диаграмма
-```
+
+```mermaid
 erDiagram
     CUSTOMER ||--o{ ORDER : places
     ORDER ||--|{ LINE-ITEM : contains
@@ -262,7 +278,8 @@ erDiagram
 ```
 
 ### 5.2 С множественными связями
-```
+
+```mermaid
 erDiagram
     USER ||--o{ POST : writes
     USER ||--o{ COMMENT : creates
@@ -293,7 +310,8 @@ erDiagram
 ## 6. Диаграмма Ганта (Gantt Chart)
 
 ### 6.1 Простая диаграмма Ганта
-```
+
+```mermaid
 gantt
     title План проекта
     dateFormat YYYY-MM-DD
@@ -307,7 +325,8 @@ gantt
 ```
 
 ### 6.2 С зависимостями и вехами
-```
+
+```mermaid
 gantt
     title Разработка приложения
     dateFormat YYYY-MM-DD
@@ -325,7 +344,8 @@ gantt
 ```
 
 ### 6.3 С критическим путём
-```
+
+```mermaid
 gantt
     title Управление задачами
     dateFormat YYYY-MM-DD
@@ -342,7 +362,8 @@ gantt
 ## 7. Круговая диаграмма (Pie Chart)
 
 ### 7.1 Простая круговая диаграмма
-```
+
+```mermaid
 pie title Распределение времени
     "Работа" : 45
     "Сон" : 30
@@ -351,7 +372,8 @@ pie title Распределение времени
 ```
 
 ### 7.2 С другими данными
-```
+
+```mermaid
 pie showData title Продажи по регионам
     "Европа" : 35.5
     "Азия" : 42.3
@@ -364,7 +386,8 @@ pie showData title Продажи по регионам
 ## 8. Диаграмма Git (Git Graph)
 
 ### 8.1 Простой git-граф
-```
+
+```mermaid
 gitGraph
     commit
     commit
@@ -378,7 +401,8 @@ gitGraph
 ```
 
 ### 8.2 Сложный git-граф
-```
+
+```mermaid
 gitGraph
     commit id: "init"
     commit id: "feat-1"
@@ -397,7 +421,8 @@ gitGraph
 ## 9. Диаграмма пользовательских путей (User Journey)
 
 ### 9.1 Путь пользователя
-```
+
+```mermaid
 journey
     title Мой рабочий день
     section Утро
@@ -414,7 +439,8 @@ journey
 ```
 
 ### 9.2 С несколькими участниками
-```
+
+```mermaid
 journey
     title Покупка в интернет-магазине
     section Поиск
@@ -432,7 +458,7 @@ journey
 
 ## 10. Диаграмма требований (Requirement Diagram)
 
-```
+```mermaid
 requirementDiagram
 
 requirement test_req {
@@ -462,7 +488,8 @@ test_req - contains -> test_req2
 ## 11. C4-диаграмма (C4 Diagram)
 
 ### 11.1 Контекстная диаграмма
-```
+
+```mermaid
 C4Context
     title Контекст системы
     Person(user, "Пользователь", "Использует систему")
@@ -473,7 +500,8 @@ C4Context
 ```
 
 ### 11.2 Диаграмма контейнеров
-```
+
+```mermaid
 C4Container
     title Диаграмма контейнеров
     Person(user, "Пользователь")
@@ -491,7 +519,7 @@ C4Container
 
 ## 12. Диаграмма блоков (Block Diagram)
 
-```
+```mermaid
 block-beta
     columns 3
     A[Вход] B[Обработка] C[Выход]
@@ -506,7 +534,7 @@ block-beta
 
 ## 13. Диаграмма упаковки (Packet Diagram)
 
-```
+```mermaid
 packet-beta
     0-15: "Source Port"
     16-31: "Destination Port"
@@ -522,7 +550,7 @@ packet-beta
 
 ## 14. Диаграмма архитектуры (Architecture Diagram)
 
-```
+```mermaid
 architecture-beta
     group api(cloud)[API]
     service db(database)[Database] in api
@@ -538,7 +566,7 @@ architecture-beta
 
 ## 15. Диаграмма временных рядов (Timeline)
 
-```
+```mermaid
 timeline
     title История развития технологий
     section 1990-е
@@ -559,7 +587,7 @@ timeline
 
 ## 16. Диаграмма квадратов (Quadrant Chart)
 
-```
+```mermaid
 quadrantChart
     title Приоритизация задач
     x-axis Низкий приоритет --> Высокий приоритет
@@ -578,7 +606,7 @@ quadrantChart
 
 ## 17. Диаграмма XY (XY Chart)
 
-```
+```mermaid
 xychart-beta
     title "Продажи по месяцам"
     x-axis [янв, фев, мар, апр, май, июн]
@@ -591,7 +619,7 @@ xychart-beta
 
 ## 18. Диаграмма Санкей (Sankey Diagram)
 
-```
+```mermaid
 sankey-beta
 
 Agricultural 'waste',Bio-conversion,124.729
@@ -609,7 +637,7 @@ Coal reserves,Coal,63.965
 
 ## 19. Карта ума (Mind Map)
 
-```
+```mermaid
 mindmap
   root((Проект))
     Планирование
@@ -635,7 +663,7 @@ mindmap
 
 ## 20. Диаграмма ZenUML
 
-```
+```mermaid
 zenuml
     title Демонстрация
     Alice->Bob: Привет
@@ -649,6 +677,7 @@ zenuml
 ## Заключение
 
 Все примеры выше демонстрируют основные возможности Mermaid для создания:
+
 - Блок-схем
 - Диаграмм последовательностей
 - Диаграмм классов
