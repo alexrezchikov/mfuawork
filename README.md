@@ -1,6 +1,6 @@
-### Привет!
-Меня зовут Александр 👋
-Стеки: Shell, Powershell, Python, C.
+# Конспекты по предмету
 
-Являюсь начинающим программистом.
-В этом репозитории рассматривается практика по программированию для колледжа.
+- [Основы редактирования текста](/other/text.md)
+- [Markdown](/other/markdown.md)
+- [Mermaid](/other/mermaid.md)
+- [Task mermaid](/other/task_mermaid.md)
