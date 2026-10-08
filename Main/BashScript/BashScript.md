@@ -1,7 +1,7 @@
 # Bash scripting
 
 Самостоятельная работа по Bash-программированию.
-Выполнено в VS Code + Git-Bash. Все скрипты лежат в папке [`BashScript`](/mfuawork/Main/BashScript/).
+Выполнено в VS Code + Git-Bash. Все скрипты лежат в папке [`BashScript`](Main/BashScript/).
 
 ## Скрипты
 
@@ -48,7 +48,7 @@ echo "Привет, $name!"
 
 Скриншот вывода:
 
-![1](mfuawork/Main/BashScript/img/1.png)
+![1](Main/BashScript/img/1.png)
 
 ### 2. Сумма двух чисел
 
