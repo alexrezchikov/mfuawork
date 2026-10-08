@@ -1,0 +1,28 @@
+body {
+    background-color: lightblue;
+}
+
+div {
+    background-color: brown;
+}
+
+#firstDiv {
+    background-color: blue;
+    font-size: 50px;
+}
+
+.firstUl li {
+    background-color: bisque;
+}
+
+ul li{
+    background-color: greenyellow;
+}
+
+div, li, body{
+    background-color: blueviolet;
+}
+
+ul > li {
+    background-color: aquamarine;
+}
