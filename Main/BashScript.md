@@ -106,7 +106,7 @@ fi
 
 Скриншот вывода:
 
-![5](mfuawork/Main/BashScript/img/4.png)
+![4](mfuawork/Main/BashScript/img/4.png)
 
 ### 5. Генератор пароля
 
@@ -121,7 +121,7 @@ echo "Ваш пароль: $password"
 
 Скриншот вывода:
 
-![6](mfuawork/Main/BashScript/img/5.png)
+![5](mfuawork/Main/BashScript/img/5.png)
 
 ### 6. Поиск файлов по расширению
 
@@ -142,7 +142,7 @@ fi
 
 Скриншот вывода:
 
-![7](mfuawork/Main/BashScript/img/6.png)
+![6](mfuawork/Main/BashScript/img/6.png)
 
 ### 7. GitHub Repository Analyzer
 
@@ -199,7 +199,7 @@ fi
 
 Скриншот вывода:
 
-![8](mfuawork/Main/BashScript/img/7.png)
+![7](mfuawork/Main/BashScript/img/7.png)
 
 ***
 
