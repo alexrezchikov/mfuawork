@@ -48,7 +48,7 @@ echo "Привет, $name!"
 
 Скриншот вывода:
 
-![1](Main/BashScript/img/1.png)
+![1](BashScript/img/1.png)
 
 ### 2. Сумма двух чисел
 
