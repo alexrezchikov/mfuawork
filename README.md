@@ -1,6 +1,11 @@
-### Привет!
+# Привет!
 Меня зовут Александр 👋
 Стеки: Shell, Powershell, Python, C.
 
 Являюсь начинающим программистом.
-В этом репозитории рассматривается практика по программированию для колледжа.
+
+## Навигация
+- [Основы редактирования текста](Main/text.md)
+- [Markdown](Main/markdown.md)
+- [Mermaid](Main/mermaid.md)
+- [Task mermaid](Main/task_mermaid.md)
