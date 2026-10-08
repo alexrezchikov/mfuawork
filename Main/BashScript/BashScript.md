@@ -40,7 +40,6 @@ bash 8.sh torvalds/linux
 
 ```bash
 #!/bin/bash
-# Спрашиваем имя и здороваемся
 echo "Как вас зовут?"
 read name
 echo "Привет, $name!"
@@ -56,7 +55,6 @@ echo "Привет, $name!"
 
 ```bash
 #!/bin/bash
-# Сумма двух чисел
 read -p "Введите первое число: " a
 read -p "Введите второе число: " b
 sum=$((a + b))
@@ -65,7 +63,7 @@ echo "Сумма: $sum"
 
 Скриншот вывода:
 
-![2](/mfuawork/Main/BashScript/img/2.png)
+![2](/BashScript/img/2.png)
 
 ### 3. Проверка на чётность
 
@@ -73,7 +71,6 @@ echo "Сумма: $sum"
 
 ```bash
 #!/bin/bash
-# Проверка числа на чётность
 read -p "Введите число: " num
 
 if [ $((num % 2)) -eq 0 ]; then
@@ -85,7 +82,7 @@ fi
 
 Скриншот вывода:
 
-![3](/mfuawork/Main/BashScript/img/3.png)
+![3](/BashScript/img/3.png)
 
 ### 4. Подсчёт строк в файле
 
@@ -93,7 +90,6 @@ fi
 
 ```bash
 #!/bin/bash
-# Считаем строки в файле
 read -p "Введите имя файла: " filename
 
 if [ -f "$filename" ]; then
@@ -106,7 +102,7 @@ fi
 
 Скриншот вывода:
 
-![4](/mfuawork/Main/BashScript/img/4.png)
+![4](/BashScript/img/4.png)
 
 ### 5. Генератор пароля
 
@@ -114,14 +110,13 @@ fi
 
 ```bash
 #!/bin/bash
-# Генератор пароля из 8 символов
 password=$(tr -dc 'A-Za-z0-9' < /dev/urandom | head -c 8)
 echo "Ваш пароль: $password"
 ```
 
 Скриншот вывода:
 
-![5](/mfuawork/Main/BashScript/img/5.png)
+![5](/BashScript/img/5.png)
 
 ### 6. Поиск файлов по расширению
 
@@ -129,7 +124,6 @@ echo "Ваш пароль: $password"
 
 ```bash
 #!/bin/bash
-# Поиск файлов по расширению в текущей папке
 read -p "Введите расширение (например txt): " ext
 
 echo "Найденные файлы:"
@@ -142,7 +136,7 @@ fi
 
 Скриншот вывода:
 
-![6](/mfuawork/Main/BashScript/img/6.png)
+![6](/BashScript/img/6.png)
 
 ### 7. GitHub Repository Analyzer
 
@@ -150,8 +144,8 @@ fi
 
 ```bash
 #!/bin/bash
-# Статистика репозитория GitHub (нужен curl)
-# Запуск: bash 8.sh tensorflow/tensorflow
+
+# Запуск: bash 8.sh alexrezchikov/alexrezchikov
 
 repo=$1
 
@@ -199,7 +193,7 @@ fi
 
 Скриншот вывода:
 
-![7](/mfuawork/Main/BashScript/img/7.png)
+![7](/BashScript/img/7.png)
 
 ***
 
