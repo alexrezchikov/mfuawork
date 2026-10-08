@@ -5,7 +5,7 @@
 Являюсь начинающим программистом.
 
 ## Навигация
-- [Основы редактирования текста](/mfuawork/Main/text.md)
+- [Основы редактирования текста](Main/text.md)
 - [Markdown](/mfuawork/Main/markdown.md)
 - [Mermaid](/mfuawork/Main/mermaid.md)
 - [Task mermaid](/mfuawork/Main/task_mermaid.md)
