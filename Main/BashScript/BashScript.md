@@ -1,7 +1,7 @@
 # Bash scripting
 
 Самостоятельная работа по Bash-программированию.
-Выполнено в VS Code + Git-Bash. Все скрипты лежат в папке [`BashScript`](/mfuawork/Main/BashScript/src/).
+Выполнено в VS Code + Git-Bash. Все скрипты лежат в папке [`src`](src/).
 
 ## Скрипты
 
