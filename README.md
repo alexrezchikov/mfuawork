@@ -9,3 +9,4 @@
 - [Markdown](Main/markdown.md)
 - [Mermaid](Main/mermaid.md)
 - [Task mermaid](Main/task_mermaid.md)
+- [Shell](Main/Shell.md)
