@@ -10,4 +10,4 @@
 - [Mermaid](Main/mermaid.md)
 - [Task mermaid](Main/task_mermaid.md)
 - [Shell](Main/Shell.md)
-- [BashScripts](Main/BashScript/Bash_Script.md)
+- [BashScript](Main/BashScript/Bash_Script.md)
