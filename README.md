@@ -5,9 +5,9 @@
 Являюсь начинающим программистом.
 
 ## Навигация
-- [Основы редактирования текста](/mfuawork/Main/text.md)
-- [Markdown](/mfuawork/Main/markdown.md)
-- [Mermaid](/mfuawork/Main/mermaid.md)
-- [Task mermaid](/mfuawork/Main/task_mermaid.md)
-- [Shell](/mfuawork/Main/Shell.md)
-- [BashScripts](/mfuawork/Main/BashScript/Bash_Script.md)
+- [Основы редактирования текста](Main/text.md)
+- [Markdown](Main/markdown.md)
+- [Mermaid](Main/mermaid.md)
+- [Task mermaid](Main/task_mermaid.md)
+- [Shell](Main/Shell.md)
+- [BashScripts](Main/BashScript/Bash_Script.md)
