@@ -1,7 +1,7 @@
 # Bash scripting
 
 Самостоятельная работа по Bash-программированию.
-Выполнено в VS Code + Git-Bash. Все скрипты лежат в папке [`bashScripting`](/theory/Operating20Systems20and20Environments/BashScript/).
+Выполнено в VS Code + Git-Bash. Все скрипты лежат в папке [`BashScript`](/mfuawork/Main/BashScript/).
 
 ## Скрипты
 
@@ -48,7 +48,7 @@ echo "Привет, $name!"
 
 Скриншот вывода:
 
-![1](mfuawork/Main/BashScript/img/1.png)
+![1](/mfuawork/Main/BashScript/img/1.png)
 
 ### 2. Сумма двух чисел
 
@@ -65,7 +65,7 @@ echo "Сумма: $sum"
 
 Скриншот вывода:
 
-![2](mfuawork/Main/BashScript/img/2.png)
+![2](/mfuawork/Main/BashScript/img/2.png)
 
 ### 3. Проверка на чётность
 
@@ -85,7 +85,7 @@ fi
 
 Скриншот вывода:
 
-![3](mfuawork/Main/BashScript/img/3.png)
+![3](/mfuawork/Main/BashScript/img/3.png)
 
 ### 4. Подсчёт строк в файле
 
@@ -106,7 +106,7 @@ fi
 
 Скриншот вывода:
 
-![4](mfuawork/Main/BashScript/img/4.png)
+![4](/mfuawork/Main/BashScript/img/4.png)
 
 ### 5. Генератор пароля
 
@@ -121,7 +121,7 @@ echo "Ваш пароль: $password"
 
 Скриншот вывода:
 
-![5](mfuawork/Main/BashScript/img/5.png)
+![5](/mfuawork/Main/BashScript/img/5.png)
 
 ### 6. Поиск файлов по расширению
 
@@ -142,7 +142,7 @@ fi
 
 Скриншот вывода:
 
-![6](mfuawork/Main/BashScript/img/6.png)
+![6](/mfuawork/Main/BashScript/img/6.png)
 
 ### 7. GitHub Repository Analyzer
 
@@ -199,7 +199,7 @@ fi
 
 Скриншот вывода:
 
-![7](mfuawork/Main/BashScript/img/7.png)
+![7](/mfuawork/Main/BashScript/img/7.png)
 
 ***
 
