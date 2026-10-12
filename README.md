@@ -11,3 +11,4 @@
 - [Task mermaid](Main/task_mermaid.md)
 - [Shell](Main/Shell.md)
 - [BashScript](Main/BashScript/BashScript.md)
+- [Git](Main/Git.md)
