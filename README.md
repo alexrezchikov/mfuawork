@@ -13,4 +13,5 @@
 - [BashScript](Main/BashScript/BashScript.md)
 - [Git](Main/Git.md)
 
-12.10.2026
+## Проекты
+- [AI site](https://github.com/alexrezchikov/AI_site)
