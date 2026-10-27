@@ -15,3 +15,6 @@
 
 ## Проекты
 - [AI site](https://github.com/alexrezchikov/AI_site)
+
+## Задания
+- [Задание 15](3_Architecture/task15.md)
