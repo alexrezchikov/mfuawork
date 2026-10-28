@@ -1,10 +1,8 @@
 # Hi!
-Меня зовут Александр 👋
 Стеки: Shell, Powershell, Python, C.
-
 Являюсь начинающим программистом.
 
-## Навигация
+### Навигация
 - [Основы редактирования текста](2_DB&OS/Text.md)
 - [Markdown](2_DB&OS/Markdown.md)
 - [Mermaid](/2_DB&OS/Mermaid.md)
@@ -13,11 +11,11 @@
 - [BashScript](/2_DB&OS/BashScript/BashScript.md)
 - [Git](/2_DB&OS/Git.md)
 
-## Проекты
-- [AI_site](https://github.com/alexrezchikov/AI_site) // [src](https://github.com/alexrezchikov/AI_site/blob/main/index.html)
+### Проекты
+- [AI_site](https://github.com/alexrezchikov/AI_site) / [src](https://github.com/alexrezchikov/AI_site/blob/main/index.html)
 
-## Задания
+### Задания
 - [Задание 15](3_Architecture/task15.md)
 
-## Teacher
+### Teacher
 - [Repository_teacher's](https://gitflic.ru/project/rurewa/mfua)
