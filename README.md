@@ -19,3 +19,6 @@
 
 ### Teacher
 - [Repository_teacher's](https://gitflic.ru/project/rurewa/mfua)
+
+### Cosiness(team_project)
+- [Cosiness](https://github.com/alexrezchikov/Cosiness)
