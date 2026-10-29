@@ -15,7 +15,7 @@
 - [AI_site](https://github.com/alexrezchikov/AI_site) / [src](https://github.com/alexrezchikov/AI_site/blob/main/index.html)
 
 ### Задания
-- [Задание 15](3_Architecture/task15.md)
+- [Задание 15](3_Hardware_Architecture/task15.md)
 
 ### Teacher
 - [Repository_teacher's](https://gitflic.ru/project/rurewa/mfua)
