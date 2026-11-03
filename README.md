@@ -10,6 +10,7 @@
 - [Shell](/2_DB&OS/Shell.md)
 - [BashScript](/2_DB&OS/BashScript/BashScript.md)
 - [Git](/2_DB&OS/Git.md)
+- [Docker](/mfuawork/2_DB&OS/docker.md)
 
 ### Проекты
 - [AI_site](https://github.com/alexrezchikov/AI_site) / [src](https://github.com/alexrezchikov/AI_site/blob/main/index.html)
