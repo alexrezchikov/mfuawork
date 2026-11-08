@@ -1,3 +1,58 @@
+html, body, div, span, applet, object, iframe,
+h1, h2, h3, h4, h5, h6, p, blockquote, pre,
+a, abbr, acronym, address, big, cite, code,
+del, dfn, em, img, ins, kbd, q, s, samp,
+small, strike, strong, sub, sup, tt, var,
+b, u, i, center,
+dl, dt, dd, ol, ul, li,
+fieldset, form, label, legend,
+table, caption, tbody, tfoot, thead, tr, th, td,
+article, aside, canvas, details, embed, 
+figure, figcaption, footer, header, hgroup, 
+menu, nav, output, ruby, section, summary,
+time, mark, audio, video {
+	margin: 0;
+	padding: 0;
+	border: 0;
+	font-size: 100%;
+	font: inherit;
+	vertical-align: baseline;
+}
+/* HTML5 display-role reset for older browsers */
+article, aside, details, figcaption, figure, 
+footer, header, hgroup, menu, nav, section {
+	display: block;
+}
+body {
+	line-height: 1;
+}
+ol, ul {
+	list-style: none;
+}
+blockquote, q {
+	quotes: none;
+}
+blockquote:before, blockquote:after,
+q:before, q:after {
+	content: '';
+	content: none;
+}
+table {
+	border-collapse: collapse;
+	border-spacing: 0;
+}
+
+/* Популярные свойства для позиционирования */
+/* Отступы (внутренние и внешние) */
+
+/* Работа со шрифтами */
+header {
+	font-family: Georgia, 'Times New Roman', Arial, Helvetica, sans-serif;
+	font-size: 50px;
+	text-align: center;
+}
+
+
 # 1. HTML: Введение
 
 HTML - язык гипертекстовой разметки (HyperText MarkUp Language). Описывает структуру и сематику(логику) web-страницы.
@@ -311,3 +366,23 @@ Figma - наш полезный инструмент для рабты с гра
 Плюсы:
 + Точное позиционирование относительно начала холста
 + Позволяет легко 
+
+# FLEXBOX
+1)dispaly: flex - Превращает HTML-элемент во флекс-контейнер(родитель), а все его прямые дочерние элементы - во флекс-элементы. Флекс-контейнер и флекс-элементы становится гибкими (способные адаптироваться под ширину экрана). + Дочерними элементами становится проце управлять через родителя.
+
+2)flex-direction: row/column/row-reverse/column-revers/column-revers
+Определяет направление главной оси для дочерних элементов (необязательное свойство)
+
+3)justify-content: flex-start (по умолчанию) - по левому краю
+flex-end - дочерние блоки прилипают по правому краю
+center - дочерние блоки находятся чётко по центру экрана
+space-between - первый и последние дочерние блоки прилипают к краям экрана, а между всеми остальными одинаковое расстояние
+space-around - пустое пространство перед первым и после послденего элементов равно половине пространства между двумя соседними элементами
+space-evenly - флексы распредлеятся так, что расстояние между любыми 2 соседними элементами, а также перед первым и после последнего, было одинаковым.
+4)gap: 50px
+gap - это конкретное расстояние между дочерними элементами
+5)align-items
+Выравнивание дочерних элементов по вертикали (сверху вниз)
+flex-start (по умолчанию) верхний левый край
+flex-end - нижний левый край
+center - выравнивание по центру
