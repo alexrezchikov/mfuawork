@@ -12,8 +12,13 @@
 ```shell
 docker run -d --name my-apache -p 8081:80 httpd
 ```
+![1](/mfuawork/2_DB&OS/Docker/Apache/1.png)
+
+
 
 [Откройте адрес http://localhost:8081 в браузере](http://localhost:8081)
+![2](/mfuawork/2_DB&OS/Docker/Apache/2.png)
+
 
 ### Редактирование веб-страницы
 
@@ -21,11 +26,14 @@ docker run -d --name my-apache -p 8081:80 httpd
 ```shell
 docker exec -it my-apache bash
 ```
+![3](/mfuawork/2_DB&OS/Docker/Apache/3.png)
 
 Установить текстовый редактор командной строки Micro:
 ```shell
 apt update && apt install -y micro
 ```
+![4](/mfuawork/2_DB&OS/Docker/Apache/4.png)
+
 
 Открыть файл `index.html` для редактирования содержимого
 ```shell
@@ -37,6 +45,8 @@ micro /usr/local/apache2/htdocs/index.html
 отредайтируйте и сохраните по `Ctrl+S` и выйти из режима редактирования по `Ctrl+Q` или `F10`
 
 [Проверьте результат по адрес http://localhost:8081](http://localhost:8081)
+
+![5](/mfuawork/2_DB&OS/Docker/Apache/5.png)
 
 Выйти из контейнера:
 ```shell
