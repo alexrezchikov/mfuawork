@@ -20,7 +20,7 @@ docker run -d `
   -p 8084:8080 `
   adminer:latest
 ```
-![1](/mfuawork/2_DB&OS/Docker/Adminer/1.png)
+![1](2_DB&OS/Docker/Adminer/1.png)
 
 
 Запустите **Adminer** в **Git-Bash/Linux/WSL 2.0/Mac**
