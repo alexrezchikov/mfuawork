@@ -12,17 +12,13 @@
 - [Git](/2_DB&OS/Git.md)
 - [Docker](/2_DB&OS/docker.md)
 
-### Проекты
-- [AI_site](https://github.com/alexrezchikov/AI_site) / [src](https://github.com/alexrezchikov/AI_site/blob/main/index.html)
-
 ### Задания
 - [Задание 15](3_Hardware_Architecture/task15.md)
 
 ### Teacher
 - [Repository_teacher's](https://gitflic.ru/project/rurewa/mfua)
 
-### Cosiness(team_project)
+### Labs
 - [Cosiness](https://github.com/alexrezchikov/Cosiness)
-
-### Docker
-- [Docker_tasks](https://github.com/alexrezchikov/mfuawork/tree/main/2_DB%26OS/Docker)
+- [Docker](https://github.com/alexrezchikov/mfuawork/tree/main/2_DB%26OS/Docker)
+- [AI_site](https://github.com/alexrezchikov/AI_site) / [src](https://github.com/alexrezchikov/AI_site/blob/main/index.html)
