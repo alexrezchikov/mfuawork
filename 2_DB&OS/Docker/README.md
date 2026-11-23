@@ -14,4 +14,4 @@
 
 ![MySQL](/2_DB&OS/Docker/MySQL/README.md)
 
-![Nginx](/mfuawork/2_DB&OS/Docker/Nginx/README.md)
+![Nginx](/2_DB&OS/Docker/Nginx/README.md)
