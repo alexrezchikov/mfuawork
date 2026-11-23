@@ -20,5 +20,5 @@
 
 ### Labs
 - [Cosiness](https://github.com/alexrezchikov/Cosiness)
-- [Docker](https://github.com/alexrezchikov/mfuawork/tree/main/2_DB%26OS/Docker)
+- [Docker](/2_DB%26OS/Docker/README.md)
 - [AI_site](https://github.com/alexrezchikov/AI_site) / [src](https://github.com/alexrezchikov/AI_site/blob/main/index.html)
