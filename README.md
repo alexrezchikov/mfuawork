@@ -14,6 +14,7 @@
 
 ### Задания
 - [Задание 15](3_Hardware_Architecture/task15.md)
+- [Diagram](3_Hardware_Architecture/Diagram/export.md)
 
 ### Teacher
 - [Repository_teacher's](https://gitflic.ru/project/rurewa/mfua)
